@@ -6,4 +6,4 @@
   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#62;&#62;{{ student.content }}</p>
 
 {% endfor %}
-  <h2>{{ student.name }} - {{ student.position }}</h2>
+  <h2>{{ student.name }} - {{ student.user }}</h2>
