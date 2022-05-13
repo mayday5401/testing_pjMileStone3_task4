@@ -1,12 +1,14 @@
 # Readme 
-## Contributors ad
+## Contributors ae
 
 {% for student in site.students %}
   > <img src="{{ student.image }}">{: width="50" }
-  > <@{{ student.name }} alt="https://github.com/{{ student.name }}">
+  > @{{ student.name }}>
   > ({{ student.name }})
   > 
-  >>{{ student.content | markdownify }}
+  >{{student.image}}
+  >
+  <span>{{ student.content | markdownify }}<span>
   >>
   >>
 {% endfor %}
