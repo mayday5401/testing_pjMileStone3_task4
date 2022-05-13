@@ -1,8 +1,4 @@
 theme: jekyll-theme-midnight
 collections:
-  students:
-
-
-collections:
   staff_members:
     people: true
