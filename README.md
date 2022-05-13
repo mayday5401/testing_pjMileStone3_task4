@@ -1,4 +1,4 @@
-{% for bird in site.birds %}
-  <img src="{{ bird.image }}" alt="{{ bird.image_alt }}">
-  <span>{{ bird.description }}</span>
+{% for student in site.students %}
+  <img src="{{ student.image }}" alt="{{ bird.student_alt }}">
+  <span>{{ student.content }}</span>
 {% endfor %}
