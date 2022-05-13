@@ -1,2 +1,4 @@
 collections:
   students:
+    output: true
+    permalink: /students/:path/
