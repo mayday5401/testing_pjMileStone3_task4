@@ -1,9 +1,14 @@
 # Readme 
-## Contributors 35
+## Contributors 36
 
 {% for student in site.students %} <br />
   &nbsp;&nbsp;&nbsp;&#187;<img src="{{ student.image }}">{: width="40" }@[{{ student.user }}](https://github.com/{{ student.user }})({{ student.name }}) <br /> 
-<html>
+{% endfor %}
+
+{% for student in site.students %}
+<p>{{ student.null }}&#187;{{ student.content }}</p>
+{% endfor %}
+/*<html>
 <head>
 <style>
 p:first-letter {
@@ -21,3 +26,4 @@ p:first-letter {
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </body>
 </html>
+*/
