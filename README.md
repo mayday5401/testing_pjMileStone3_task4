@@ -1,5 +1,5 @@
 # Readme 
-## Contributors 32
+## Contributors 33
 
 {% for student in site.students %} <br />
   &nbsp;&nbsp;&nbsp&#187;<img src="{{ student.image }}">{: width="40" }@[{{ student.user }}](https://github.com/{{ student.user }})({{ student.name }}) <br /> 
@@ -8,6 +8,9 @@
 <style>
 p {
   text-indent: 50px;
+}
+p:first-letter {
+    padding-left: 50%;
 }
 </style>
 </head>
