@@ -1,4 +1,4 @@
-# Readme
+# Readmea
 ## Contributors
 
 {% for student in site.students %}
@@ -8,4 +8,4 @@
   >>
   >><img src="{{ student.image }}" alt="{{ student.image_alt }}">
 {% endfor %}
-a
+
