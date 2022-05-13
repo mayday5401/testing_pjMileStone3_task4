@@ -3,4 +3,6 @@
 
 {% for student in site.students %} <br />
 &nbsp;&nbsp;&nbsp;&nbsp; >><img src="{{ student.image }}">{: width="40" }@[{{ student.name }}](https://github.com/{{ student.name }})({{ student.name }}) <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; >>{{ student.content }}{% endfor %}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; >>{{ student.content }}
+
+{% endfor %}
