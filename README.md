@@ -1,5 +1,5 @@
 # Readme 
-## Contributors 40
+## Contributors 41
 
 {% for student in site.students %} <br />
   &nbsp;&nbsp;&#187;<img src="{{ student.image }}">{: width="40" }@[{{ student.user }}](https://github.com/{{ student.user }})({{ student.name }}) <br /> 
@@ -8,5 +8,5 @@
 
 {% for student in site.students %} <br />
 &#187;<img src="{{ student.image }}">{: width="40" }@[{{ student.user }}](https://github.com/{{ student.user }})({{ student.name }}) <br /> 
-&#187;<img src="{{ null.image }}">{{ student.content }}
+{{ student.content }}&#187;
 {% endfor %}
