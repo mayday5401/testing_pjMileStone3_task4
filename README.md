@@ -1,5 +1,5 @@
-# Readmea
-## Contributors
+# Readme 
+## Contributors aa
 
 {% for student in site.students %}
   >{{ student.image }}
