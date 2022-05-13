@@ -1,6 +1,2 @@
 collections:
-    my_collection:
-        output: true
-    staff_members:
-        output: true
-        people: true
+  birds:
