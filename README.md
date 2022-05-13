@@ -2,7 +2,7 @@
 ## Contributors ab
 
 {% for student in site.students %}
-  > <img src="{{ student.image }}" alt="{{ student.image_alt }}">
+  > <img src="{{ student.image }}">{: width="250" }
   > <@{{ student.name }} alt="https://github.com/{{ student.name }}">
   > ({{ student.name }})
   > 
