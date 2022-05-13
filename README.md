@@ -8,3 +8,4 @@
   >>
   >><img src="{{ student.image }}" alt="{{ student.image_alt }}">
 {% endfor %}
+a
