@@ -8,7 +8,7 @@
   > 
   >{{student.image}}
   >
-  <span>{{ student.content | markdownify }}<span>
+  >{{ student.content }}
   >>
   >>
 {% endfor %}
