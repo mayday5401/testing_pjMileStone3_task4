@@ -1,10 +1,14 @@
 # Readme 
-## Contributors 29
-
+## Contributors 30
+<html>
+<head>
+<style>
 p {
-  text-indent: 100px;
+  text-indent: 50px;
 }
-
+</style>
+</head>
+<body>
 {% for student in site.students %} <br />
   &nbsp;&nbsp;&nbsp&#187;<img src="{{ student.image }}">{: width="40" }@[{{ student.user }}](https://github.com/{{ student.user }})({{ student.name }}) <br /> 
   <p>{{ student.null }}{{ student.null }}&#187;{{ student.content }}</p>
@@ -14,3 +18,5 @@ p {
 {% endfor %}
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</body>
+</html>
