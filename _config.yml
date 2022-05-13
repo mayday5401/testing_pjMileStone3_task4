@@ -1,3 +1,4 @@
 theme: jekyll-theme-midnight
 collections:
   staff_members:
+    outpaut: true
