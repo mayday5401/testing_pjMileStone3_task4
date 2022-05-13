@@ -1,5 +1,5 @@
 # Readme 
-## Contributors as
+## Contributors at
 
 {% for student in site.students %}
 
