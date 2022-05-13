@@ -1,9 +1,13 @@
 # Readme 
-## Contributors 45
-p{display:none}
+## Contributors 46
+<style>
+p{
+display:none
+}
+  </style>
 {% for student in site.students %} <br />
   &nbsp;&nbsp;&#187;<img src="{{ student.image }}">{: width="40" }@[{{ student.user }}](https://github.com/{{ student.user }})({{ student.name }}) <br /> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p>&#187;<span>{{ student.content }}</span></p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#187;<span>{{ student.content }}</span>
 {% endfor %}
 
 {% for student in site.students %} <br />
