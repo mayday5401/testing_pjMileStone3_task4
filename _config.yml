@@ -1,4 +1,6 @@
-theme: jekyll-theme-midnight
 collections:
-  staff_members:
-    outpaut: true
+    my_collection:
+        output: true
+    staff_members:
+        output: true
+        people: true
