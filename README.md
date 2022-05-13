@@ -3,7 +3,7 @@
 
 {% for student in site.students %}
   > <img src="{{ student.image }}">{: width="50" }
-  > @{{ student.name }}
+  > @[{{ student.name }}](https://github.com/{{ student.name }})
   > ({{ student.name }})
   > 
   >{{student.image}}
