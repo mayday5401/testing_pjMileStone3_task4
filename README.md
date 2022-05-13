@@ -15,10 +15,9 @@ p:first-letter {
 </style>
 </head>
 <body>
-<p>&#187;
-{{ student.content }}</p>
+<p>&#187;{{ student.content }}</p>
 
-  &nbsp;<h2>{{ student.null }}&nbsp;&#187;{{ student.user }}</h2>
+<h2>{{ student.null }}&#187;{{ student.user }}</h2>
 
 {% endfor %}
 
