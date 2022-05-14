@@ -1,9 +1,9 @@
 # Readme 
-## Contributors 56
+## Contributors 57
 
 
 {% for student in site.students %}
-![steam-fish-1](https://github.com/{{ student.user }}){: width="250" }
+<img src="{{ student.image }}" alt="">
 {% endfor %}
 
 {% for student in site.students %} <br />
@@ -14,11 +14,9 @@
 {% for student in site.students %}     
 <figure>   
    <img src="{{ student.image }}" style="width: 23px ;"/>  
-   <figcaption>
      @<a href="https://github.com/{{ student.user }}">
       {{ student.user }}
      </a>
-  </figcaption>
 </figure>    
 {% endfor %}
     
