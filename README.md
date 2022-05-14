@@ -11,4 +11,3 @@
 »{{ student.content }}
 
 {% endfor %}
-&nbsp; <br />
