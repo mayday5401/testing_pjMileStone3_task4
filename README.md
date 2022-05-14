@@ -8,6 +8,7 @@
       {{ student.user }}
      </a>
      ({{ student.name }})
+     
 »{{ student.content }}
 
 {% endfor %}
