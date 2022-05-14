@@ -5,9 +5,9 @@
 
 »<img src="{{ student.image }}" alt="">{: width="40" }
 @<a href="https://github.com/{{ student.user }}">
-      ({{ student.user }})
+      {{ student.user }}
      </a>
-     
+     ({{ student.name }})
 »{{ student.content }}
 
 {% endfor %}
