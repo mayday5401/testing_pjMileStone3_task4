@@ -1,5 +1,5 @@
 # Readme 
-## Contributors 55
+## Contributors 56
 
 
 {% for student in site.students %}
@@ -15,8 +15,8 @@
 <figure>   
    <img src="{{ student.image }}" style="width: 23px ;"/>  
    <figcaption>
-     <a href="https://github.com/{{ student.user }}">
-      @{{ student.user }}
+     @<a href="https://github.com/{{ student.user }}">
+      {{ student.user }}
      </a>
   </figcaption>
 </figure>    
