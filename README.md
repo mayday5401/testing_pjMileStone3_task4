@@ -1,5 +1,5 @@
 # Readme 
-## Contributors 54
+## Contributors 55
 
 ![steam-fish-1](https://github.com/{{ student.user }}){: width="250" }
 
@@ -11,8 +11,7 @@
 
 {% for student in site.students %}     
 <figure>   
-   <img src="{{ student.image }}" style="width: 23px ;"/>
-   
+   <img src="{{ student.image }}" style="width: 23px ;"/>  
    <figcaption>
      <a href="https://github.com/{{ student.user }}">
       @{{ student.user }}
