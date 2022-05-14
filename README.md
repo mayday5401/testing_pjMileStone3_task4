@@ -1,8 +1,10 @@
 # Readme 
 ## Contributors 55
 
-![steam-fish-1](https://github.com/{{ student.user }}){: width="250" }
 
+{% for student in site.students %}
+![steam-fish-1](https://github.com/{{ student.user }}){: width="250" }
+{% endfor %}
 
 {% for student in site.students %} <br />
   &nbsp;&nbsp;&#187;<img src="{{ student.image }}">{: width="40" }@[{{ student.user }}](https://github.com/{{ student.user }})({{ student.name }}) <br/> 
